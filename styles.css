@@ -1,0 +1,75 @@
+/* styles.css */
+
+body {
+  background-color: #050031cc
+;
+  position: absolute;
+  inset: 0;
+  display: flex;
+  place-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.wrapper {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(97, 0, 131, 1);
+}
+
+#title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#user-input {
+  width: calc(100% - 40px); /* Subtract padding */
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  font-size: 18px;
+}
+
+button {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+#check-btn {
+  background-color: blue;
+  color: #fff;
+  margin-right: 10px;
+}
+
+#clear-btn {
+  background-color: #f44336;
+  color: #fff;
+}
+
+#results-div {
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+
+button:hover {
+  filter: brightness(0.9);
+}
+
+
+* {
+  transition: all 0.25s ease-out;
+}
